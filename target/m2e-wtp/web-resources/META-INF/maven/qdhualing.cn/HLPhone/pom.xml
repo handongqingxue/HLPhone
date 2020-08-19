@@ -75,6 +75,13 @@
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
 		</dependency>
+		
+		<!-- jsp页面轻标签 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 
 		<dependency>
 			<groupId>mysql</groupId>

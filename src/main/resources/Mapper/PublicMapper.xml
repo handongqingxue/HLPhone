@@ -7,5 +7,8 @@
 	<select id="selectUser" resultType="java.lang.String">
 		select username from aspcms_users where userid=2
 	</select>
+	<select id="selectNav" resultType="com.hlPhone.entity.NewsSort">
+		select * from Aspcms_NewsSort where SortLevel=1 and SortStatus=1 order by SortOrder
+	</select>
 	
 </mapper>
