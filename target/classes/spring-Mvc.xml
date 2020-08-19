@@ -46,5 +46,9 @@
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.hlPhone.dao " />
 	</bean>
+	<mvc:annotation-driven />
+     <mvc:default-servlet-handler />
+	<!-- 静态资源过滤 -->
+    <mvc:resources location="/resource/" mapping="/resource/**"/>
 	
 </beans>

@@ -13,11 +13,18 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 @Controller
-@RequestMapping("/merchant/main")
+@RequestMapping("/main")
 public class MainController {
 	
 	@Autowired
 	private PublicService publicService;
+	
+	@RequestMapping("/toIndex")
+	public String toIndex() {
+		
+		return "index";
+	}
+	
 	
 	@RequestMapping("/test")
 	public void test() {
@@ -27,6 +34,7 @@ public class MainController {
 	
 	public static void main(String[] args) {
 		try {
+			//D:\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
 			//https://blog.csdn.net/zjsdrs/article/details/77542263
 			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
 			String url = "jdbc:odbc:driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=F:\\data.mdb";
