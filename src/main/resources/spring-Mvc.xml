@@ -25,6 +25,12 @@
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
+		<!-- 
+		<property name="driverClassName" value="sun.jdbc.odbc.JdbcOdbcDriver" />
+		<property name="url" value="jdbc:odbc:driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=F:\\data.mdb" />
+		<property name="username" value="" />
+		<property name="password" value="" />
+		 -->
 	</bean>
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />

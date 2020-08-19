@@ -5,7 +5,7 @@
 <mapper namespace="com.hlPhone.dao.PublicMapper">
 
 	<select id="selectUser" resultType="java.lang.String">
-		select UserName from account_info where UserName='13608977126'
+		select username from aspcms_users where userid=2
 	</select>
 	
 </mapper>
