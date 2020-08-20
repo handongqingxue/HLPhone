@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 	String basePath=request.getScheme()+"://"+request.getServerName()+":"
 		+request.getServerPort()+request.getContextPath()+"/";
@@ -26,7 +25,7 @@ function BtnOK(id){
 	var itemHtml="";
 	if(id==7){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=61\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=61\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417094141204.png\">";
 				itemHtml+="<p>V150Plus喷码机</p>";
 			itemHtml+="</a>";
@@ -157,30 +156,6 @@ function BtnOK(id){
 </script>
 <title>首页-工控产品-二维码喷码机</title>
 <style type="text/css">
-body{
-	margin: 0;
-}
-a {
-    color: #428bca;
-    text-decoration: none;
-}
-.index_nav{
-	width:100%;
-	/*
-	background: url(<%=basePath%>resource/templates/green/images/top_bg.jpg) no-repeat top center;
-	*/
-	background-color: rgb(229,230,235);
-}
-.nav_div{
-	width: 100%;height: 40px;margin: 0 auto;background: #d6d6d6 url(<%=basePath%>resource/templates/green/images/nav_bg.jpg) no-repeat top center;
-}
-.nav_div .nav_list_div{
-	width: 950px;height:40px;margin: 0 auto;
-}
-.nav_div .nav_list_div .item_div{
-	float: left;height: 40px;width: 135px;line-height: 40px;color: #292929;text-align: center;font-size: 14px;font-weight: 700;
-}
-
 .good_nav_div{
 	width: 100%;height: 50px;font-size: 14px;background-color: #f1f1f1;display: flex;
 }
@@ -298,43 +273,10 @@ a {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.footer_div{
-	width: 100%;height: 58px;line-height: 58px;background: #d6d6d6;display: flex;
-}
-.footer_div .nav_list_div{
-	width: 500px;
-	display: flex;
-	margin-left: 30px;
-}
-.footer_div .nav_list_div .item_div{
-	margin: 0 15px 0 0;
-	color: #2a2a2a;
-	font-size: 12px;
-}
-.footer_div h4{
-	color: #2a2a2a;
-	font-size: 12px;
-	margin: 0 auto;
-	font-weight: 100;
-}
 </style>
 </head>
 <body>
-<div class="index_nav">
-  <div style="width: 100%;height: 95px;line-height: 95px;margin: 0 auto;"> 
-    <a href="/" class="logo"><img src="<%=basePath %>resource/templates/green/images/logo.png" style="height:70px;margin-top:10px;"></a>
-    <span style="color: #292929;float: right;margin-right: 50px;">全国服务热线：0532-55588351&nbsp;&nbsp;15712773653</span>
-  </div>
-</div>
-<div class="nav_div">
-	<div class="nav_list_div">
-		<div class="item_div">首页</div>
-		<c:forEach items="${requestScope.navList }" var="nav">
-			<div class="item_div">${nav.sortName }</div>
-		</c:forEach>
-	</div>
-</div>
+<%@include file="../../inc/nav.jsp" %>
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
 <div style="width: 100%;height: 50px;line-height: 50px;">
 	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="" style="margin-left: 10px;">
@@ -549,15 +491,7 @@ a {
     <div class="swiper-button-prev swiper-button-disabled"></div>
 </div>
 
-<div class="footer_div">
-	<div class="nav_list_div">
-		<div class="item_div">首页</div>
-		<c:forEach items="${requestScope.navList }" var="nav">
-			<div class="item_div">${nav.sortName }</div>
-		</c:forEach>
-	</div>
-	<h4>青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color: #2a2a2a;">鲁ICP备15031378号</a></h4>
-</div>
+<%@include file="../../inc/footer.jsp" %>
             
 <script src="<%=basePath %>resource/staticPage/js/swiper.min.js"></script>
 <script>

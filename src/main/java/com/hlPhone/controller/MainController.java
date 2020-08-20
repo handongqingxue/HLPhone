@@ -39,6 +39,14 @@ public class MainController {
 		return "gkcp/ewmpmj/goods";
 	}
 	
+	@RequestMapping("/toEwmpmjDetail")
+	public String toEwmpmjDetail(HttpServletRequest request) {
+		
+		selectNav(request);
+		
+		return "gkcp/ewmpmj/goodDetail";
+	}
+	
 	
 	private void selectNav(HttpServletRequest request) {
 		// TODO Auto-generated method stub
