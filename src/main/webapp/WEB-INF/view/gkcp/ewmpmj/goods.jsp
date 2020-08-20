@@ -13,7 +13,8 @@
 <script type="text/javascript">
 var path='<%=basePath %>';
 $(function(){
-	
+	var id='${param.id}';
+	BtnOK(id);
 });
 
 function BtnOK(id){
@@ -297,6 +298,26 @@ a {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.footer_div{
+	width: 100%;height: 58px;line-height: 58px;background: #d6d6d6;display: flex;
+}
+.footer_div .nav_list_div{
+	width: 500px;
+	display: flex;
+	margin-left: 30px;
+}
+.footer_div .nav_list_div .item_div{
+	margin: 0 15px 0 0;
+	color: #2a2a2a;
+	font-size: 12px;
+}
+.footer_div h4{
+	color: #2a2a2a;
+	font-size: 12px;
+	margin: 0 auto;
+	font-weight: 100;
+}
 </style>
 </head>
 <body>
@@ -526,6 +547,16 @@ a {
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev swiper-button-disabled"></div>
+</div>
+
+<div class="footer_div">
+	<div class="nav_list_div">
+		<div class="item_div">首页</div>
+		<c:forEach items="${requestScope.navList }" var="nav">
+			<div class="item_div">${nav.sortName }</div>
+		</c:forEach>
+	</div>
+	<h4>青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color: #2a2a2a;">鲁ICP备15031378号</a></h4>
 </div>
             
 <script src="<%=basePath %>resource/staticPage/js/swiper.min.js"></script>
