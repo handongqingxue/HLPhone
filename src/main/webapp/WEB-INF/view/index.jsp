@@ -14,6 +14,11 @@
 body{
 	margin: 0;
 }
+.index_nav{
+	width:100%;
+	height:93px;
+	background: url(<%=basePath%>resource/templates/green/images/top_bg.jpg) no-repeat top center;
+}
 .nav_div{
 	width: 100%;height: 40px;margin: 0 auto;background: #d6d6d6 url(<%=basePath%>resource/templates/green/images/nav_bg.jpg) no-repeat top center;
 }
@@ -26,7 +31,7 @@ body{
 </style>
 </head>
 <body>
-<div style="height:93px;background: url(<%=basePath%>resource/templates/green/images/top_bg.jpg) no-repeat top center;">
+<div class="index_nav">
   <div style="width: 1100px;height: 95px;line-height: 95px;margin: 0 auto;"> 
     <!--logo 部分--> 
     <a href="/" class="logo"><img src="<%=basePath %>resource/templates/green/images/logo.png" style="height:70px;margin-top:10px"></a> 

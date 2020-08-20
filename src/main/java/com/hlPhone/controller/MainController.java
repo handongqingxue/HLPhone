@@ -26,13 +26,27 @@ public class MainController {
 	@RequestMapping("/toIndex")
 	public String toIndex(HttpServletRequest request) {
 		
-		List<NewsSort> navList=publicService.selectNav();
-		request.setAttribute("navList", navList);
+		selectNav(request);
 		
 		return "index";
 	}
+
+	@RequestMapping("/toEwmpmj")
+	public String toEwmpmj(HttpServletRequest request) {
+		
+		selectNav(request);
+		
+		return "gkcp/ewmpmj/goods";
+	}
 	
 	
+	private void selectNav(HttpServletRequest request) {
+		// TODO Auto-generated method stub
+		
+		List<NewsSort> navList=publicService.selectNav();
+		request.setAttribute("navList", navList);
+	}
+
 	@RequestMapping("/test")
 	public void test() {
 		System.out.println("111111111111");
