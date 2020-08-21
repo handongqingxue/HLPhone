@@ -46,6 +46,14 @@ public class MainController {
 		
 		return "gkcp/ewmpmj/goodDetail";
 	}
+
+	@RequestMapping("/toMjznczcp")
+	public String toMjznczcp(HttpServletRequest request) {
+		
+		selectNav(request);
+		
+		return "gkcp/mjznczcp/goods";
+	}
 	
 	
 	private void selectNav(HttpServletRequest request) {

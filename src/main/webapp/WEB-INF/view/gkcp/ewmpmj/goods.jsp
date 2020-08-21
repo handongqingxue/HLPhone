@@ -319,180 +319,180 @@ function BtnOK(id){
 <div class="swiper-container swiper-container-horizontal">
    <div class="swiper-wrapper">
        <div class="swiper-slide swiper-slide-active" style="width: 240px;">
-           <a href="goodDetail.html?id=196">
+           <a href="toEwmpmjDetail?id=196">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180918093443165.jpg" alt="">
            </a>
            <div class="layer_1">TTO热转印设备</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=196">查看</a>
+               <a href="toEwmpmjDetail?id=196">查看</a>
            </div>
        </div>
        <div class="swiper-slide swiper-slide-next" style="width: 240px;">
-           <a href="goodDetail.html?id=270">
+           <a href="toEwmpmjDetail?id=270">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20190829155513383.jpg" alt="">
            </a>
            <div class="layer_1">UV6810喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=270">查看</a>
+               <a href="toEwmpmjDetail?id=270">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=104">
+           <a href="toEwmpmjDetail?id=104">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20190829093006976.jpg" alt="">
            </a>
            <div class="layer_1">UV6610喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=104">查看</a>
+               <a href="toEwmpmjDetail?id=104">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=105">
+           <a href="toEwmpmjDetail?id=105">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180918093811415.jpg" alt="">
            </a>
            <div class="layer_1">UV8900喷印系统</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=105">查看</a>
+               <a href="toEwmpmjDetail?id=105">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=106">
+           <a href="toEwmpmjDetail?id=106">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180918093829305.jpg" alt="">
            </a>
            <div class="layer_1">UV9100喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=106">查看</a>
+               <a href="toEwmpmjDetail?id=106">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=75">
+           <a href="toEwmpmjDetail?id=75">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180918092917180.jpg" alt="">
            </a>
            <div class="layer_1">大字符喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=75">查看</a>
+               <a href="toEwmpmjDetail?id=75">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=76">
+           <a href="toEwmpmjDetail?id=76">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417105952298.jpg" alt="">
            </a>
            <div class="layer_1">
                T300系列高解析喷码设备
            </div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=76">查看</a>
+               <a href="toEwmpmjDetail?id=76">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=78">
+           <a href="toEwmpmjDetail?id=78">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20170317085443100.jpg" alt="">
            </a>
            <div class="layer_1">MDPS多功能数据打印系统</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=78">查看</a>
+               <a href="toEwmpmjDetail?id=78">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=79">
+           <a href="toEwmpmjDetail?id=79">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417105114486.jpg" alt="">
            </a>
            <div class="layer_1">
                S系列手持喷码机
            </div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=79">查看</a>
+               <a href="toEwmpmjDetail?id=79">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=282">
+           <a href="toEwmpmjDetail?id=282">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200418133439564.jpg" alt="">
            </a>
            <div class="layer_1">T800系列高解析喷码设备</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=282">查看</a>
+               <a href="toEwmpmjDetail?id=282">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=149">
+           <a href="toEwmpmjDetail?id=149">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20170627172414939.jpg" alt="">
            </a>
            <div class="layer_1">紫外激光打标机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=149">查看</a>
+               <a href="toEwmpmjDetail?id=149">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=73">
+           <a href="toEwmpmjDetail?id=73">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180918093142493.jpg" alt="">
            </a>
            <div class="layer_1">二氧化碳激光打标机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=73">查看</a>
+               <a href="toEwmpmjDetail?id=73">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=74">
+           <a href="toEwmpmjDetail?id=74">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20180314150118639.jpg" alt="">
            </a>
            <div class="layer_1">光纤激光打标机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=74">查看</a>
+               <a href="toEwmpmjDetail?id=74">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=61">
+           <a href="toEwmpmjDetail?id=61">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417094141204.png" alt="">
            </a>
            <div class="layer_1">V150Plus喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=61">查看</a>
+               <a href="toEwmpmjDetail?id=61">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=62">
+           <a href="toEwmpmjDetail?id=62">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417100423814.jpg" alt="">
            </a>
            <div class="layer_1">V280Plus喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=62">查看</a>
+               <a href="toEwmpmjDetail?id=62">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=66">
+           <a href="toEwmpmjDetail?id=66">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417103404658.jpg" alt="">
            </a>
            <div class="layer_1">v380Plus喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=66">查看</a>
+               <a href="toEwmpmjDetail?id=66">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=68">
+           <a href="toEwmpmjDetail?id=68">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417103712533.jpg" alt="">
            </a>
            <div class="layer_1">
                V380P白墨机
            </div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=68">查看</a>
+               <a href="toEwmpmjDetail?id=68">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=72">
+           <a href="toEwmpmjDetail?id=72">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417104212251.jpg" alt="">
            </a>
            <div class="layer_1">V220Plus喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=72">查看</a>
+               <a href="toEwmpmjDetail?id=72">查看</a>
            </div>
        </div>
        <div class="swiper-slide" style="width: 240px;">
-           <a href="goodDetail.html?id=145">
+           <a href="toEwmpmjDetail?id=145">
                <img src="<%=basePath %>resource/staticPage/UpFiles/File/20200417104742829.jpg" alt="">
            </a>
            <div class="layer_1">v260Plus喷码机</div>
            <div class="layer_2">
-               <a href="goodDetail.html?id=145">查看</a>
+               <a href="toEwmpmjDetail?id=145">查看</a>
            </div>
        </div>
     </div>
