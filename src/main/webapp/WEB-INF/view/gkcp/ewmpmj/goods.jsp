@@ -131,13 +131,13 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=106\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=106\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093829305.jpg\">";
 				itemHtml+="<p> UV9100喷码机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=270\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=270\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829155513383.jpg\">";
 				itemHtml+="<p>UV6810喷码机</p>";
 			itemHtml+="</a>";
@@ -145,7 +145,7 @@ function BtnOK(id){
 	}
 	else if(id==100){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=196\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=196\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093443165.jpg\">";
 				itemHtml+="<p>TTO热转印设备</p>";
 			itemHtml+="</a>";
@@ -156,6 +156,15 @@ function BtnOK(id){
 </script>
 <title>首页-工控产品-二维码喷码机</title>
 <style type="text/css">
+.left_nav_div{
+	width: 100%;height: 50px;line-height: 50px;
+}
+.left_nav_div img{
+	margin-left: 10px;
+}
+.left_nav_div span:last-child{
+	color: #0067B2;
+}
 .good_nav_div{
 	width: 100%;height: 50px;font-size: 14px;background-color: #f1f1f1;display: flex;
 }
@@ -278,8 +287,8 @@ function BtnOK(id){
 <body>
 <%@include file="../../inc/nav.jsp" %>
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
-<div style="width: 100%;height: 50px;line-height: 50px;">
-	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="" style="margin-left: 10px;">
+<div class="left_nav_div">
+	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
 	<span>工控产品&gt;</span>
 	<span>二维码喷码机</span>
 </div>

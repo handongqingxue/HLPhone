@@ -404,6 +404,78 @@ function initDetailInfo(){
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810145624385.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==106){
+		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">UV9100喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">原装进口理光喷头，广泛用于单据、票据、防伪、不干胶、标签、证卡、药品监管码等应 用的理想选择。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093829305.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810150037151.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801144554618.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801144558599.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810150017869.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801144605239.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==270){
+		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">UV6810喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">高效数据传输 集成系统电路，承印介质广泛 设备扩展方便，喷头精度高 精准稳定负压，速度与内容兼得 质量优异</div>";
+                        
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829155513383.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829160155195.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829160158101.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829160201429.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829160205164.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829160208211.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==196){
+		fonHtml+="<div style=\"font-size:20px;\">R系列热转印智能打码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">TTO热转印设备</div>";
+		fonHtml+="<div style=\"font-size:12px;\">R系列热转印打码机，是目前世界上性价比较高的智能打码机，主要适用于食品、制药、日化、种子、生活用纸、 金融钞票等各类软包装标识解决方案。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093443165.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810150203150.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143806224.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143810411.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810150326744.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810150334197.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -648,6 +720,42 @@ function BtnOK(sid){
 			jjcdHtml+="</div>";
 		}
 	}
+	else if(id==106){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180801/20180801135613_4897.jpg\"> ";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==270){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20190829/20190829155704_3518.jpg\" alt=\"\"> ";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"https://v.youku.com/v_show/id_XMzgxNDQ4ODY1Mg==.html?spm=a2h9p.12366999.app.5~5!2~5~5!2~5~5!2~5!3~5~5~5~5~5~21~22~TR!9~TD!2~5~5!2~H4~A\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==196){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528123103_6599.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzE5MDU0NTUwMA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
 	jianjChildDiv.html(jjcdHtml);
 }
 </script>
@@ -655,6 +763,15 @@ function BtnOK(sid){
 <style type="text/css">
 body{
 	background-color: #f1f1f1;
+}
+.left_nav_div{
+	width: 100%;height: 50px;line-height: 50px;
+}
+.left_nav_div img{
+	margin-left: 10px;
+}
+.left_nav_div span:last-child{
+	color: #0067B2;
 }
 .main_div{
 	width: 100%;
@@ -729,8 +846,8 @@ body{
 <body>
 <%@include file="../../inc/nav.jsp" %>
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
-<div style="width: 100%;height: 50px;line-height: 50px;">
-	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="" style="margin-left: 10px;">
+<div class="left_nav_div">
+	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
 	<span>工控产品&gt;</span>
 	<span>二维码喷码机&gt;</span>
 	<span>小字符喷码器</span>
@@ -739,27 +856,27 @@ body{
 <div class="main_div">
 	<div class="good_list_div">
 		<div class="item_div">
-			小字符喷码机
+			<a href="toEwmpmj?id=7">小字符喷码机</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 		<div class="item_div">
-			激光打码机/打标机
+			<a href="toEwmpmj?id=8">激光打码机/打标机</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 		<div class="item_div">
-			高解析喷码机
+			<a href="toEwmpmj?id=9">高解析喷码机</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 		<div class="item_div">
-			大字符喷码机
+			<a href="toEwmpmj?id=10">大字符喷码机</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 		<div class="item_div">
-			UV可变数据喷印系统
+			<a href="toEwmpmj?id=54">UV可变数据喷印系统</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 		<div class="item_div">
-			R系列热转印智能打码机
+			<a href="toEwmpmj?id=100">R系列热转印智能打码机</a>
 			<img src="<%=basePath %>resource/staticPage/img/logo3.png" alt="">
 		</div>
 	</div>
