@@ -119,6 +119,31 @@ function initDetailInfo(){
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130004.png\" alt=\"big\">";
 		itemHtml+="</a>";
 	}
+	else if(id==5){
+		fonHtml+="<div style=\"font-size:20px;\">NLS-MT60E(4G)_Datasheet_cn 4寸安卓</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+	}
+	else if(id==6){
+		fonHtml+="<div style=\"font-size:20px;\">互射式红外光栅防盗探测器</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140026.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+	}
+	else if(id==9){
+		fonHtml+="<div style=\"font-size:20px;\">经销出入口补光抓拍一体机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">型号：DS-TCG2A5-B</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -1881,6 +1906,163 @@ function BtnOK(sid){
 			jjcdHtml+="";
 		}
 	}
+	else if(id==5){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="产品特点：";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="工业级的耐用性";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="拥有 IP65 防护等级，能承受六面 1.5 米跌落高度，即使在多尘环境中、或者将液体溅到其上，仍能保证设备正常工作。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="强大的续航能力";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="3800mAh 大容量电池，持久续航。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="卓越的识读性能";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="采用自主研发的第五代";
+					jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140023.png\" style=\"width:60px;height:21px;\">";
+				jjcdHtml+="核心解码技术，完美识读污损、弯曲等低品质条码。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="深度定制的安卓系统";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="独特的应用程序保护、管理员工具等系列新功 能，解决了企业对安卓系统数据问题的困扰。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="高速的运转性能";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="高速四核 2.0GHz 处理器，2GB 运行内存，16GB 闪存，保证在任意应用场合都能运行流畅。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;font-weight: bold;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="丰富的功能配置";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="支持 1D/2D/BT/WiFi/4G 全网通/3G 全网通/GPS/ Camera，满足多样应用需求。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="应用场景：";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="物流快递、仓储管理、连锁零售、食品溯源、医疗卫生、经销商管理、生产制造、资产盘点等。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140024.jpg\">";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140025.jpg\">";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==6){
+		if(sid==1){
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140027.png\">";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140028.png\">";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==9){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="DS-TCG2A5-B   系列出入口补光抓拍一体机是由防护罩、镜头、摄像机、补光灯及电源组成。 设备采用高清晰逐行扫描 CMOS，具有清晰度高、星光级低照度、帧率高、色彩还原度好等特点； 支持 H265  编码，节省存储空间；采用先进的深 度学习智能算法，实现视频检测抓拍，支持车牌、  车型、车标、子品牌、车身颜色、无牌车检测、防跟车模式。产品广泛应用于小区、商场、学校、医院、机场、车站、加油站、4S 店、政府大院等出入口场景的车辆抓拍和识别。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="型号";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<table style=\"width:100%;font-size: 14px;\" border=\"1\" cellspacing=\"0\">";
+				jjcdHtml+="<tr>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="产品型号";
+					jjcdHtml+="</td>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="功能描述";
+					jjcdHtml+="</td>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="镜头类型";
+					jjcdHtml+="</td>";
+				jjcdHtml+="</tr>";
+				jjcdHtml+="<tr>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="DS-TCG2A5-B";
+					jjcdHtml+="</td>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="深度智能，车辆抓拍，车牌、车型、车标、车辆子品牌、车身颜色识别，电动变焦、自动光圈，内置 LED 补光灯，黑白名单控制，视频触发";
+					jjcdHtml+="</td>";
+					jjcdHtml+="<td>";
+						jjcdHtml+="3.1-9mm";
+					jjcdHtml+="</td>";
+				jjcdHtml+="</tr>";
+			jjcdHtml+="</table>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="主要特性";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="高清晰：200 万像素高清摄像机，最大分辨率可达 1920*1200，帧率高达 25fps；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="低照度效果：1/3\"逐行扫描 CMOS，成像效果好，0.002Lux 低照度监控效果，夜间看的更清；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="双灯一体化：内置红外白光一体化灯珠，有效满足不同的场景需求";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="集成度高：集摄像机、护罩、LED 补光灯、镜头、电源适配器于一体，有效节省施工布线成本；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="调试方便：采用 3.1-9mm 电动变焦镜头，支持软件自动调焦，调试更加方便，场景适应性更广；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="接口丰富：丰富的控制接口，可直接控制道闸开/关，支持外接报警设备、LED 显示屏、音频输入输出等，支持经销显示屏以及语音播报";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="识别车牌种类多：能够识别民用车牌（除 5 小车辆），新能源车牌，警用车牌，2012 式新军用车牌，2012 式武警车牌等；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="智能识别算法：深度智能识别算法，支持 250 种车标，3000 种子品牌，13 种车型，11 种车身颜色识别等车辆特征识别，识别率 90%以上";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="黑白名单控制：可选配 TF 卡，支持黑、白名单的导入及对比，可直接联动道闸开闸，支持脱机运行；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="多种触发模式：支持线圈触发、视频触发等多种触发模式；捕获率高，纯视频识别，纯视频抓拍时可捕获无车牌，捕获率 99.5%以上";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="防跟车模式：对于连续过车的场景，可实现跟车不落杆，有效解决拥堵问题；";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="无线传输（可选）：支持 GLE 电信全网通无线传输功能，环境适应性更强。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="典型应用";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180074.png\">";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: center;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="典型应用系统图";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="技术参数";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180075.png\">";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180076.png\">";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="外形尺寸";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180077.png\">";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
 	jianjChildDiv.html(jjcdHtml);
 }
 </script>
@@ -1960,11 +2142,6 @@ body{
 }
 .jianj_div img{
 	width: 100%;
-}
-.space_div {
-    width: 100%;
-    height: 50px;
-    clear: both;
 }
 </style>
 </head>
@@ -2061,7 +2238,6 @@ body{
 	</div>
 </div>
 
-<div class="space_div"></div>
 <%@include file="../../inc/footer.jsp" %>
 </body>
 </html>

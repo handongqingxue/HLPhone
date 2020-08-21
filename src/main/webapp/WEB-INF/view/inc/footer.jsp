@@ -6,8 +6,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
+.space_div {
+    width: 100%;
+    height: 108px;
+    clear: both;
+}
 .footer_div{
-	width: 100%;height: 58px;line-height: 58px;background: #d6d6d6;display: flex;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	background: #d6d6d6;
+	display: flex;
+	bottom: 0;
+	position: fixed;
 }
 .footer_div .nav_list_div{
 	width: 500px;
@@ -28,6 +39,7 @@
 </style>
 </head>
 <body>
+<div class="space_div"></div>
 <div class="footer_div">
 	<div class="nav_list_div">
 		<div class="item_div">首页</div>

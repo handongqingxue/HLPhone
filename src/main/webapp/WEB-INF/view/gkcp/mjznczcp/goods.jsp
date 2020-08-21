@@ -73,7 +73,7 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=5\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=5\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\">";
 				itemHtml+="<p>NLS-MT60E(4G)_Datasheet_cn 4寸安卓</p>";
 			itemHtml+="</a>";
@@ -81,13 +81,13 @@ function BtnOK(id){
 	}
 	else if(id==6){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=6\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=6\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130006.jpg\">";
 				itemHtml+="<p>互射式红外光栅防盗探测器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=9\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=9\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" style=\"width: 225px;height:225px;\">";
 				itemHtml+="<p>经销出入口补光抓拍一体机</p>";
 			itemHtml+="</a>";

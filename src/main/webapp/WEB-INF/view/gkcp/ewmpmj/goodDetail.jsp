@@ -836,11 +836,6 @@ body{
 .jianj_div img{
 	width: 100%;
 }
-.space_div {
-    width: 100%;
-    height: 50px;
-    clear: both;
-}
 </style>
 </head>
 <body>
@@ -934,7 +929,6 @@ body{
 	</div>
 </div>
 
-<div class="space_div"></div>
 <%@include file="../../inc/footer.jsp" %>
 </body>
 </html>
