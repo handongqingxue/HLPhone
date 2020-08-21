@@ -22,11 +22,9 @@ function initDetailInfo(){
 	var itemHtml="";
 	var id='${param.id}';
 	if(id==61){
-		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
-		fonHtml+="<ul>";
-			fonHtml+="<li>V150Plus喷码机</li>";
-			fonHtml+="<li>稳定高速、维护更简单，智能故障提醒功能。</li>";
-		fonHtml+="</ul>";
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">V150Plus喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">稳定高速、维护更简单，智能故障提醒功能。</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417094141204.png\" alt=\"big\">";
@@ -45,6 +43,126 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141315650.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==62){
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">V280Plus喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">新一代Plus机型采用全新打印模式、全新自主开发操作系统、墨路结构全新优化、运行更加稳定高效</div>";
+		
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417100423814.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417100402798.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141657885.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141724885.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141736572.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141744072.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==66){
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">v380Plus喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">采用8寸全彩屏触摸操控系统、人机互动更方便、设有故障智能提示灯、具备定时停墨关机功能</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417103404658.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417103323736.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810141931994.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142740333.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142809099.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142750943.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==68){
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">V380P白墨机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">适用于线缆、管材、型材行业喷码，专用于深色产品标识。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417103712533.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417103658658.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142927427.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810142208401.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142936567.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801142944818.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==72){
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">V220Plus喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">设计优良、墨路电路全面升级、采用模块化设计、模具化生产、并智能故障提醒。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417104212251.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417104146283.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143014396.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810142338400.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143022255.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810142554150.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==145){
+		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">v260Plus喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">自动喷头清洗、智能故障提醒，800字符/秒喷印速度，能满足各行业喷码需求。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417104742829.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417104731673.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143600708.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810142945448.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810142737369.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143657880.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
@@ -78,6 +196,90 @@ function BtnOK(sid){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
 				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTM5MTIwMA==\" ?allowfullscreen?=\"\" width=\"90%\" height=\"300\" frameborder=\"0\">";
 				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==62){
+		if(sid==1){
+			jjcdHtml+="<div style=\"margin:0px;padding:0px;\" class=\"bdsharebuttonbox bdshare-button-style0-16\" align=\"center\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417100551_0330.jpg\"><br>";
+				jjcdHtml+="&nbsp;&nbsp;";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjc4Mjk5MTg1Ng==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\"><br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==66){
+		if(sid==1){
+			jjcdHtml+="<p align=\"center\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417103053_6736.jpg\"> ";
+			jjcdHtml+="</p>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173149_8483.png\">";
+					jjcdHtml+="<span>";
+					jjcdHtml+="</span>";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==68){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417103826_0330.jpg\">";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173149_8483.png\">";
+					jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzE5OTkyMTM0NA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+					jjcdHtml+="<span>";
+					jjcdHtml+="</span>";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==72){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p align=\"center\">";
+					jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417104404_8299.jpg\">";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173221_8173.png\">";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==145){
+		if(sid==1){
+			jjcdHtml+="<p style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417104814_2517.jpg\">";
+			jjcdHtml+="</p>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173309_8957.png\">";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
 		}
 	}
