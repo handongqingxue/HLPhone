@@ -39,13 +39,13 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=7\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=7\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\">";
 				itemHtml+="<p>智能道闸机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=2\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=2\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130002.jpeg\" style=\"width: 160px;height:228px;\">";
 				itemHtml+="<p>道闸雷达</p>";
 			itemHtml+="</a>";
