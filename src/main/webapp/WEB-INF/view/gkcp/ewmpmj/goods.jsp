@@ -91,19 +91,19 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=78\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=78\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20170317085443100.jpg\">";
 				itemHtml+="<p>MDPS多功能数据打印系统</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=79\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=79\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105114486.jpg\">";
 				itemHtml+="<p>S系列手持喷码机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=282\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=282\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418133439564.jpg\">";
 				itemHtml+="<p>T800系列高解析喷码设备</p>";
 			itemHtml+="</a>";
@@ -111,7 +111,7 @@ function BtnOK(id){
 	}
 	else if(id==10){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=75\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=75\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918092917180.jpg\">";
 				itemHtml+="<p>大字符喷码机</p>";
 			itemHtml+="</a>";
@@ -119,13 +119,13 @@ function BtnOK(id){
 	}
 	else if(id==54){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=104\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=104\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829093006976.jpg\">";
 				itemHtml+="<p>UV6610喷码机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=105\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=105\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093811415.jpg\">";
 				itemHtml+="<p>UV8900喷印系统</p>";
 			itemHtml+="</a>";

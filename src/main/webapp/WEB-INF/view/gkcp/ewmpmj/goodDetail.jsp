@@ -260,6 +260,150 @@ function initDetailInfo(){
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143938463.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==78){
+		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">MDPS多功能数据打印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">MDPS喷印系统</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20170317085443100.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144135478.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143353896.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143358474.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144123385.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143405646.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==79){
+		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">S系列手持喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">360度全方位喷码，操作简便、可喷条形码和二维码。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105114486.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105104142.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143432442.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144401025.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143440083.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143443317.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==282){
+		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">T800系列高解析喷码设备</div>";
+		fonHtml+="<div style=\"font-size:12px;\">自带7寸触摸屏工控机、打印高度12.7mm-101.6mm、打印速度300*150dpi时可达90m/min</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418133439564.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418133425486.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418134717689.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418134555064.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+=" <a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418134606798.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200418134616423.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==75){
+		fonHtml+="<div style=\"font-size:20px;\">大字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">大字符喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">7点和16点阵可选，实用输入接口满足各种应用要求。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918092917180.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144604433.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144555697.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143231974.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143235255.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143239286.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==104){
+		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">UV6610喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">喷码速度快、字体清晰，一物一码、防伪防串货，是各种柔印机、凹印机理想的配套功能扩展设备。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829093006976.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144740338.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144816838.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144825963.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144831963.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810144853447.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==105){
+		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">UV8900喷印系统</div>";
+		fonHtml+="<div style=\"font-size:12px;\">可根据客户特殊要求定制编辑软件，可安装于各种印刷机器以及相关配套设备上。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093811415.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810145652041.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801144512255.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810145636588.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810145631635.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810145624385.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -430,6 +574,77 @@ function BtnOK(sid){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
 				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2NjA2MA==\" ?allowfullscreen?=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
 				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==78){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528113041_6131.jpg\"> ";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2NjA2MA==\" 'allowfullscreen'=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==79){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20190829/20190829163114_2425.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjk5MTU4MTg4NA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==282){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200418/20200418134223_3143.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==75){
+		if(sid==1){
+			jjcdHtml+="<div>";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528113202_0818.jpg\">&nbsp;";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzE2MTczMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==104){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20190829/20190829092154_2893.jpg\" alt=\"\"> ";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==105){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528112830_7224.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
 			jjcdHtml+="</div>";
 		}
 	}
