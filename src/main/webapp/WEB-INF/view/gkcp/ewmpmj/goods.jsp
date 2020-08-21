@@ -63,19 +63,19 @@ function BtnOK(id){
 	}
 	else if(id==8){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=73\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=73\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093142493.jpg\">";
 				itemHtml+="<p>二氧化碳激光打标机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=74\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=74\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180314150118639.jpg\">";
 				itemHtml+="<p>光纤激光打标机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=149\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=149\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20170627172414939.jpg\">";
 				itemHtml+="<p>紫外激光打标机</p>";
 			itemHtml+="</a>";
@@ -85,7 +85,7 @@ function BtnOK(id){
 	}
 	else if(id==9){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=76\">";
+			itemHtml+="<a href=\"toEwmpmjDetail?id=76\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105952298.jpg\">";
 				itemHtml+="<p>T300系列高解析喷码设备</p>";
 			itemHtml+="</a>";

@@ -165,6 +165,101 @@ function initDetailInfo(){
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143657880.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==73){
+		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">二氧化碳激光打标机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">美国进口CO2射频激光器，寿命长，线条细，设备稳定免维护，打标效果好。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093142493.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143118432.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143103179.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143107599.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143111349.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143115741.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==74){
+		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">光纤激光打标机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">采用一体化整体结构，配备自动调焦系统，操作过程人性化。</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180314150118639.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143246525.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143146771.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143324385.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143157771.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143201224.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==149){
+		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">紫外激光打标机</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20170627172414939.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143703041.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143646120.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143737833.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143740990.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143744567.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==76){
+		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
+		fonHtml+="<div style=\"font-size:12px;\">T300系列高解析喷码设备</div>";
+		fonHtml+="<div style=\"font-size:12px;\">打印图像的高度可以在最大12.5mm到100mm之间、各种型号打印机专为满足您的各种喷码、打印和产品ID的应用需求</div>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105952298.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105944017.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143308256.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143312208.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180801143317302.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180810143938463.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -280,6 +375,61 @@ function BtnOK(sid){
 					jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173309_8957.png\">";
 					jjcdHtml+="<br>";
 				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==73){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p align=\"center\">";
+					jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528113250_8638.jpg\"> ";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTk2MjY0MA==\" ?allowfullscreen?=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==74){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180528/20180528113225_5040.jpg\"><br>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjc4Mjg2NzI1Ng==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\"><br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==149){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20180719/20180719163904_6489.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2MzkxMg==\" 'allowfullscreen'=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==76){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+				jjcdHtml+="<img alt=\"\" src=\""+path+"resource/staticPage/Content/kindeditor/attached/image/20200417/20200417105841_2830.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2NjA2MA==\" ?allowfullscreen?=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
 			jjcdHtml+="</div>";
 		}
 	}
