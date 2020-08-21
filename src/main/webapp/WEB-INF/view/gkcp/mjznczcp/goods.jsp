@@ -53,13 +53,13 @@ function BtnOK(id){
 	}
 	else if(id==3){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=3\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=3\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\">";
 				itemHtml+="<p>CQ-35LT规格IC读卡器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=8\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=8\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180001.png\" style=\"width: 240px;height:227px;\">";
 				itemHtml+="<p>CQ-591-MR01-EBNJ 收发卡机</p>";
 			itemHtml+="</a>";
@@ -67,7 +67,7 @@ function BtnOK(id){
 	}
 	else if(id==4){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=4\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=4\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130004.png\">";
 				itemHtml+="<p>NLS-FM430固定式条码扫描器</p>";
 			itemHtml+="</a>";
