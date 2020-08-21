@@ -33,7 +33,7 @@ function BtnOK(id){
 	}
 	else if(id==2){
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=1\">";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=1\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\">";
 				itemHtml+="<p>CVR-100UC身份证读取器</p>";
 			itemHtml+="</a>";
