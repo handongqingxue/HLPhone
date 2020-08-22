@@ -34,19 +34,19 @@ function BtnOK(id){
 	else if(id==2){
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=1\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" style=\"width: 155px;height:225px;\">";
 				itemHtml+="<p>CVR-100UC身份证读取器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=7\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" style=\"width: 150px;height:225px;\">";
 				itemHtml+="<p>智能道闸机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=2\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130002.jpeg\" style=\"width: 160px;height:228px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130002.jpg\" style=\"width: 155px;height:225px;\">";
 				itemHtml+="<p>道闸雷达</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
@@ -88,7 +88,7 @@ function BtnOK(id){
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=9\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" style=\"width: 225px;height:225px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" style=\"width: 225px;height:167px;margin-top: 29px;margin-bottom: 29px;\">";
 				itemHtml+="<p>经销出入口补光抓拍一体机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
