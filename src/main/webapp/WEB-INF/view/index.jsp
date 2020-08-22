@@ -14,36 +14,122 @@
 body{
 	margin: 0;
 }
-.index_nav{
-	width:100%;
-	height:93px;
-	background: url(<%=basePath%>resource/templates/green/images/top_bg.jpg) no-repeat top center;
+
+.flv {
+    width: 100%;
+    margin: 0 auto;
 }
-.nav_div{
-	width: 100%;height: 40px;margin: 0 auto;background: #d6d6d6 url(<%=basePath%>resource/templates/green/images/nav_bg.jpg) no-repeat top center;
+#myFocus {
+    width: 100%;
+    margin: 0 auto;
 }
-.nav_div .nav_list_div{
-	width: 1100px;height:40px;margin: 0 auto;
+#myFocus .pic img,#myFocus .rePic img{
+	width: 100%;
 }
-.nav_div .nav_list_div .item_div{
-	float: left;height: 40px;width: 135px;line-height: 40px;color: #292929;text-align: center;font-size: 14px;font-weight: 700;
+.num {
+    left: 50%;
 }
 </style>
 </head>
 <body>
-<div class="index_nav">
-  <div style="width: 1100px;height: 95px;line-height: 95px;margin: 0 auto;"> 
-    <!--logo 部分--> 
-    <a href="/" class="logo"><img src="<%=basePath %>resource/templates/green/images/logo.png" style="height:70px;margin-top:10px"></a> 
-  </div>
-</div>
-<div class="nav_div">
-	<div class="nav_list_div">
-		<div class="item_div">首页</div>
-		<c:forEach items="${requestScope.navList }" var="nav">
-			<div class="item_div">${nav.sortName }</div>
-		</c:forEach>
+<script type="text/javascript" src="<%=basePath %>resource/templates/green/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<%=basePath %>resource/templates/green/js/myfocus-2.0.1.min.js"></script>
+
+<%@include file="inc/nav.jsp" %>
+
+<div class="flv">
+	<div class="mF_YSlider_wrap">
+		<div id="myFocus" class=" mF_YSlider mF_YSlider_myFocus"><!--焦点图盒子-->
+			<div class="pic"><!--图片列表-->
+				<ul>
+					<li style="display: none;">
+						<a href="#1">
+							<img src="<%=basePath %>resource/templates/green/images/banner.jpg" thumb="">
+						</a>
+					</li>
+					<li style="display: block;">
+						<a href="#2">
+							<img src="<%=basePath %>resource/templates/green/images/banner2.jpg" thumb="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="rePic"><!--图片列表-->
+				<ul>
+					<li style="left: -1903px; top: 0px; display: none; opacity: 0;">
+						<a href="#1">
+							<img src="<%=basePath %>resource/templates/green/images/banner.jpg" thumb="">
+						</a>
+					</li>
+					<li style="left: -1903px; top: 0px; display: none; opacity: 0;">
+						<a href="#2">
+							<img src="<%=basePath %>resource/templates/green/images/banner2.jpg" thumb="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="txt">
+				<ul>
+					<li style="display: none;">
+						<a href="#1"></a>
+						<p>null</p>
+						<b></b>
+					</li>
+					<li style="display: block;">
+						<a href="#2"></a>
+						<p>null</p>
+						<b></b>
+					</li>
+				</ul>
+			</div>
+			<div class="num">
+				<ul>
+					<li class="">
+						<a>1</a>
+						<b></b>
+					</li>
+					<li class="current">
+						<a>2</a>
+						<b></b>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
+<script type="text/javascript"> 
+var bodyWidth=$("body").css("width");
+bodyWidth=bodyWidth.substring(0,bodyWidth.length-2);
+var myFocusHeight=bodyWidth*427/1920;
+
+myFocus.set
+(
+	{
+	id:'myFocus',//焦点图盒子ID
+	pattern:'mF_YSlider',//风格应用的名称
+	time:5,//切换时间间隔(秒)
+	trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+	//width:1920,//设置图片区域宽度(像素)
+	height:myFocusHeight,//设置图片区域高度(像素)
+	txtHeight:'0'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+	}
+	,true
+);   
+</script>
+<script>
+$(function(){
+	$("#myFocus ul li:eq(0)").show();
+	
+})
+</script> 
 </div>
+
+<script src="<%=basePath %>resource/templates/green/js/slide.js"></script> 
+<script>
+$('.ck-slide').ckSlide({
+	autoPlay: true,//默认为不自动播放，需要时请以此设置
+	dir: 'x',//默认效果淡隐淡出，x为水平移动，y 为垂直滚动
+	interval:3000//默认间隔2000毫秒
+});
+</script> 
 </body>
 </html>
