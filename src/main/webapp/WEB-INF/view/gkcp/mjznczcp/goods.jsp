@@ -25,9 +25,15 @@ function BtnOK(id){
 	var itemHtml="";
 	if(id==1){
 		itemHtml+="<div>";
-			itemHtml+="<a>";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200001.png\">";
-				itemHtml+="<p>LED显示屏</p>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=10\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\">";
+				itemHtml+="<p>二次开发led显示屏</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=11\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250003.jpg\">";
+				itemHtml+="<p>户外p10单色led显示屏</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}

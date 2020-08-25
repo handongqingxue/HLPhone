@@ -21,7 +21,45 @@ function initDetailInfo(){
 	var fonHtml="";
 	var itemHtml="";
 	var id='${param.id}';
-	if(id==1){
+	if(id==10){
+		fonHtml+="<div style=\"font-size:20px;\">二次开发led显示屏</div>";
+		
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200007.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200008.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200009.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==11){
+		fonHtml+="<div style=\"font-size:20px;\">户外p10单色led显示屏</div>";
+		
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250003.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200001.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250001.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250002.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250003.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==1){
 		fonHtml+="<div style=\"font-size:20px;\">身份证读取器</div>";
 		fonHtml+="<div style=\"font-size:12px;\">型号：CVR-100UC</div>";
 
@@ -164,7 +202,39 @@ function BtnOK(sid){
 	jianjChildDiv.empty();
 	var jjcdHtml="";
 	var id = $("#inputid").val();
-	if(id==1){
+	if(id==10){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="一、产品特征";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="本显示屏为二次开发单片机，主要功能为各种数据实时显示到LED屏幕、默认通讯协议modbus-rtu udp rtu，也根据要求定制其他协议进行通讯、通讯接口，网口，串口、本显示屏主要应用与工业自动化产品中、流水线以及实验室测试系统中。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="二、服务支持";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250005.jpg\">";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==11){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="一、产品特征";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250004.jpg\">";
+			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
+				jjcdHtml+="二、服务支持";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250005.jpg\">";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==1){
 		if(sid==1){
 			jjcdHtml+="<div style=\"font-size: 20px;font-weight: bold;text-align: left;line-height: 50px;\">";
 				jjcdHtml+="一、台式居民身份证阅读机具(CVR-100UC)";

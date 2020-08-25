@@ -85,7 +85,7 @@ public class MainController {
 			String url = "jdbc:odbc:driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=F:\\data.mdb";
 			Connection con = DriverManager.getConnection(url, "", "");//没有用户名和密码的时候直接为空
 			Statement sta = con.createStatement();
-			ResultSet rst = sta.executeQuery("select * from Aspcms_NewsSort where SortLevel=1 and SortStatus=1 order by SortOrder");//demoTable为access数据库中的一个表名
+			ResultSet rst = sta.executeQuery("select * from Aspcms_News where SortLevel=1 and SortStatus=1 order by SortOrder");
 			while(rst.next()){
 				System.out.println("纯java代码实现:" + rst.getString("SortName"));
 			}
