@@ -27,7 +27,7 @@ function BtnOK(id){
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=10\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\">";
-				itemHtml+="<p>二次开发led显示屏</p>";
+				itemHtml+="<p>75室内双色led显示屏</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
