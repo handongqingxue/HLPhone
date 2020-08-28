@@ -16,12 +16,19 @@ $(function(){
 });
 
 function initDetailInfo(){
+	var ppnSpan=$("#par_pos_nav_span");
+	var cpnSpan=$("#chi_pos_nav_span");
 	var fonDiv=$("#show_div #fon_div");
 	var itemDiv=$("#show_div #item_div");
+	var ppnHtml="";
+	var cpnHtml="";
 	var fonHtml="";
 	var itemHtml="";
 	var id='${param.id}';
 	if(id==61){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="V150Plus喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">V150Plus喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">稳定高速、维护更简单，智能故障提醒功能。</div>";
@@ -46,6 +53,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==62){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="V280Plus喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">V280Plus喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">新一代Plus机型采用全新打印模式、全新自主开发操作系统、墨路结构全新优化、运行更加稳定高效</div>";
@@ -70,6 +80,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==66){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="v380Plus喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">v380Plus喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">采用8寸全彩屏触摸操控系统、人机互动更方便、设有故障智能提示灯、具备定时停墨关机功能</div>";
@@ -94,6 +107,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==68){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="V380P白墨机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">V380P白墨机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">适用于线缆、管材、型材行业喷码，专用于深色产品标识。</div>";
@@ -118,6 +134,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==72){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="V220Plus喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">V220Plus喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">设计优良、墨路电路全面升级、采用模块化设计、模具化生产、并智能故障提醒。</div>";
@@ -142,6 +161,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==145){
+		ppnHtml+="<a href=\"toEwmpmj?id=7\">小字符喷码机</a>";
+		cpnHtml+="v260Plus喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">小字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">v260Plus喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">自动喷头清洗、智能故障提醒，800字符/秒喷印速度，能满足各行业喷码需求。</div>";
@@ -166,6 +188,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==73){
+		ppnHtml+="<a href=\"toEwmpmj?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="二氧化碳激光打标机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">二氧化碳激光打标机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">美国进口CO2射频激光器，寿命长，线条细，设备稳定免维护，打标效果好。</div>";
@@ -190,6 +215,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==74){
+		ppnHtml+="<a href=\"toEwmpmj?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="光纤激光打标机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">光纤激光打标机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">采用一体化整体结构，配备自动调焦系统，操作过程人性化。</div>";
@@ -214,6 +242,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==149){
+		ppnHtml+="<a href=\"toEwmpmj?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="紫外激光打标机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">激光打码机/打标机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">紫外激光打标机</div>";
 
@@ -237,6 +268,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==76){
+		ppnHtml+="<a href=\"toEwmpmj?id=9\">高解析喷码机</a>";
+		cpnHtml+="T300系列高解析喷码设备";
+		
 		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">T300系列高解析喷码设备</div>";
 		fonHtml+="<div style=\"font-size:12px;\">打印图像的高度可以在最大12.5mm到100mm之间、各种型号打印机专为满足您的各种喷码、打印和产品ID的应用需求</div>";
@@ -261,6 +295,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==78){
+		ppnHtml+="<a href=\"toEwmpmj?id=9\">高解析喷码机</a>";
+		cpnHtml+="MDPS多功能数据打印系统";
+		
 		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">MDPS多功能数据打印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">MDPS喷印系统</div>";
@@ -285,6 +322,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==79){
+		ppnHtml+="<a href=\"toEwmpmj?id=9\">高解析喷码机</a>";
+		cpnHtml+="S系列手持喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">S系列手持喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">360度全方位喷码，操作简便、可喷条形码和二维码。</div>";
@@ -309,6 +349,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==282){
+		ppnHtml+="<a href=\"toEwmpmj?id=9\">高解析喷码机</a>";
+		cpnHtml+="T800系列高解析喷码设备";
+		
 		fonHtml+="<div style=\"font-size:20px;\">高解析喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">T800系列高解析喷码设备</div>";
 		fonHtml+="<div style=\"font-size:12px;\">自带7寸触摸屏工控机、打印高度12.7mm-101.6mm、打印速度300*150dpi时可达90m/min</div>";
@@ -333,6 +376,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==75){
+		ppnHtml+="<a href=\"toEwmpmj?id=10\">大字符喷码机</a>";
+		cpnHtml+="大字符喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">大字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">大字符喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">7点和16点阵可选，实用输入接口满足各种应用要求。</div>";
@@ -357,6 +403,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==104){
+		ppnHtml+="<a href=\"toEwmpmj?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV6610喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">UV6610喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">喷码速度快、字体清晰，一物一码、防伪防串货，是各种柔印机、凹印机理想的配套功能扩展设备。</div>";
@@ -381,6 +430,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==105){
+		ppnHtml+="<a href=\"toEwmpmj?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV8900喷印系统";
+		
 		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">UV8900喷印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">可根据客户特殊要求定制编辑软件，可安装于各种印刷机器以及相关配套设备上。</div>";
@@ -405,6 +457,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==106){
+		ppnHtml+="<a href=\"toEwmpmj?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV9100喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">UV9100喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">原装进口理光喷头，广泛用于单据、票据、防伪、不干胶、标签、证卡、药品监管码等应 用的理想选择。</div>";
@@ -429,6 +484,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==270){
+		ppnHtml+="<a href=\"toEwmpmj?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV6810喷码机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">UV可变数据喷印系统</div>";
 		fonHtml+="<div style=\"font-size:12px;\">UV6810喷码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">高效数据传输 集成系统电路，承印介质广泛 设备扩展方便，喷头精度高 精准稳定负压，速度与内容兼得 质量优异</div>";
@@ -453,6 +511,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==196){
+		ppnHtml+="<a href=\"toEwmpmj?id=100\">R系列热转印智能打码机</a>";
+		cpnHtml+="TTO热转印设备";
+		
 		fonHtml+="<div style=\"font-size:20px;\">R系列热转印智能打码机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">TTO热转印设备</div>";
 		fonHtml+="<div style=\"font-size:12px;\">R系列热转印打码机，是目前世界上性价比较高的智能打码机，主要适用于食品、制药、日化、种子、生活用纸、 金融钞票等各类软包装标识解决方案。</div>";
@@ -477,6 +538,8 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
+	ppnSpan.html(ppnHtml);
+	cpnSpan.html(cpnHtml);
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
 	BtnOK(1);
@@ -770,6 +833,9 @@ body{
 .left_nav_div img{
 	margin-left: 10px;
 }
+.left_nav_div .gkcp_pos_nav_span a,.left_nav_div .par_pos_nav_span a{
+	color: #2b2b2b;
+}
 .left_nav_div span:last-child{
 	color: #0067B2;
 }
@@ -843,9 +909,9 @@ body{
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
 <div class="left_nav_div">
 	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
-	<span>工控产品&gt;</span>
-	<span>二维码喷码机&gt;</span>
-	<span>小字符喷码器</span>
+	<span class="gkcp_pos_nav_span"><a href="toEwmpmj?id=7">工控产品&gt;</a></span>
+	<span class="par_pos_nav_span" id="par_pos_nav_span"></span>&gt;
+	<span id="chi_pos_nav_span"></span>
 </div>
 
 <div class="main_div">

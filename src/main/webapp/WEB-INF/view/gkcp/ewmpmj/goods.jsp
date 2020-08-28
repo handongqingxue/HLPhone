@@ -20,10 +20,15 @@ function BtnOK(id){
 	$("#good_nav_div .item_div").attr("class","item_div unSelected");
 	$("#good_nav_div #item_div"+id).attr("class","item_div selected");
 
+	var pnSpan=$("#pos_nav_span");
 	var gpList=$("#good_pic_div");
+	pnSpan.empty();
 	gpList.empty();
+	var pnHtml="";
 	var itemHtml="";
 	if(id==7){
+		pnHtml+="小字符喷码机";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=61\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417094141204.png\">";
@@ -62,6 +67,8 @@ function BtnOK(id){
 		itemHtml+="</div>";
 	}
 	else if(id==8){
+		pnHtml+="激光打码机/打标机";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=73\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093142493.jpg\">";
@@ -84,6 +91,8 @@ function BtnOK(id){
 			
 	}
 	else if(id==9){
+		pnHtml+="高解析喷码机";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=76\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20200417105952298.jpg\">";
@@ -110,6 +119,8 @@ function BtnOK(id){
 		itemHtml+="</div>";
 	}
 	else if(id==10){
+		pnHtml+="大字符喷码机";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=75\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918092917180.jpg\">";
@@ -118,6 +129,8 @@ function BtnOK(id){
 		itemHtml+="</div>";
 	}
 	else if(id==54){
+		pnHtml+="UV可变数据喷印系统";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=104\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20190829093006976.jpg\">";
@@ -144,6 +157,8 @@ function BtnOK(id){
 		itemHtml+="</div>";
 	}
 	else if(id==100){
+		pnHtml+="R系列热转印智能打码机";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toEwmpmjDetail?id=196\">";
 				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/20180918093443165.jpg\">";
@@ -151,6 +166,7 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
+	pnSpan.text(pnHtml);
 	gpList.append(itemHtml);
 }
 </script>
@@ -161,6 +177,9 @@ function BtnOK(id){
 }
 .left_nav_div img{
 	margin-left: 10px;
+}
+.left_nav_div .gkcp_pos_nav_span a{
+	color: #2b2b2b;
 }
 .left_nav_div span:last-child{
 	color: #0067B2;
@@ -289,8 +308,8 @@ function BtnOK(id){
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
 <div class="left_nav_div">
 	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
-	<span>工控产品&gt;</span>
-	<span>二维码喷码机</span>
+	<span class="gkcp_pos_nav_span"><a href="toEwmpmj?id=7">工控产品&gt;</a></span>
+	<span id="pos_nav_span"></span>
 </div>
 <div class="good_nav_div" id="good_nav_div">
 	<div class="item_div selected" id="item_div7" onclick="BtnOK(7)">
