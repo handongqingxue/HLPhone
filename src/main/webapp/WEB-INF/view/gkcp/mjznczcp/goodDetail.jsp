@@ -16,12 +16,19 @@ $(function(){
 });
 
 function initDetailInfo(){
+	var ppnSpan=$("#par_pos_nav_span");
+	var cpnSpan=$("#chi_pos_nav_span");
 	var fonDiv=$("#show_div #fon_div");
 	var itemDiv=$("#show_div #item_div");
+	var ppnHtml="";
+	var cpnHtml="";
 	var fonHtml="";
 	var itemHtml="";
 	var id='${param.id}';
 	if(id==10){
+		ppnHtml+="<a href=\"toMjznczcp?id=1\">LED大屏</a>";
+		cpnHtml+="75室内双色led显示屏";
+		
 		fonHtml+="<div style=\"font-size:20px;\">75室内双色led显示屏</div>";
 		
 		itemHtml+="<a class=\"big-photo\">";
@@ -44,6 +51,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==11){
+		ppnHtml+="<a href=\"toMjznczcp?id=1\">LED大屏</a>";
+		cpnHtml+="户外p10单色led显示屏";
+		
 		fonHtml+="<div style=\"font-size:20px;\">户外p10单色led显示屏</div>";
 		
 		itemHtml+="<a class=\"big-photo\">";
@@ -63,14 +73,17 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==1){
+		ppnHtml+="<a href=\"toMjznczcp?id=2\">门禁产品</a>";
+		cpnHtml+="身份证读取器";
+		
 		fonHtml+="<div style=\"font-size:20px;\">身份证读取器</div>";
 		fonHtml+="<div style=\"font-size:12px;\">型号：CVR-100UC</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" alt=\"big\" style=\"width: 155px;height: 225px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" alt=\"small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" alt=\"small\" style=\"width: 34px;height: 50px;margin-left: 10px;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130007.png\" alt=\"small\">";
@@ -86,16 +99,22 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==7){
+		ppnHtml+="<a href=\"toMjznczcp?id=2\">门禁产品</a>";
+		cpnHtml+="智能道闸机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">智能道闸机</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" alt=\"big\" style=\"width: 150px;height: 225px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" alt=\"small\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" alt=\"small\" style=\"width: 33px;height: 50px;margin-left: 10px;\">";
 		itemHtml+="</a>";
 	}
 	else if(id==2){
+		ppnHtml+="<a href=\"toMjznczcp?id=2\">门禁产品</a>";
+		cpnHtml+="道闸触发雷达";
+		
 		fonHtml+="<div style=\"font-size:20px;\">道闸触发雷达</div>";
 		fonHtml+="<div style=\"font-size:12px;\">CSR-DH 道闸触发雷达</div>";
 
@@ -119,14 +138,17 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==3){
+		ppnHtml+="<a href=\"toMjznczcp?id=3\">自动收发卡系列</a>";
+		cpnHtml+="辰麒IC读卡器";
+		
 		fonHtml+="<div style=\"font-size:20px;\">辰麒IC读卡器</div>";
 		fonHtml+="<div style=\"font-size:12px;\">CQ-35LT 辰麒IC读卡器</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-		itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+		itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\" alt=\"big\" style=\"width: 177px;height: 225px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-		itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\" alt=\"small\">";
+		itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\" alt=\"small\" style=\"width: 39px;height: 50px;margin-left: 10px;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 		itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140018.jpg\" alt=\"small\">";
@@ -142,6 +164,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==8){
+		ppnHtml+="<a href=\"toMjznczcp?id=3\">自动收发卡系列</a>";
+		cpnHtml+="收发卡机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">收发卡机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">CQ-591-MR01-EBNJ 收发卡机</div>";
 
@@ -153,6 +178,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==4){
+		ppnHtml+="<a href=\"toMjznczcp?id=4\">二维码流程控制产品</a>";
+		cpnHtml+="固定式条码扫描器";
+		
 		fonHtml+="<div style=\"font-size:20px;\">固定式条码扫描器</div>";
 		fonHtml+="<div style=\"font-size:12px;\">型号:NLS-FM430</div>";
 
@@ -161,27 +189,59 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==5){
+		ppnHtml+="<a href=\"toMjznczcp?id=4\">二维码流程控制产品</a>";
+		cpnHtml+="NLS-MT60E(4G)_Datasheet_cn 4寸安卓";
+		
 		fonHtml+="<div style=\"font-size:20px;\">NLS-MT60E(4G)_Datasheet_cn 4寸安卓</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\" alt=\"big\" style=\"width: 225px;height: 225px;border: 0;\">";
 		itemHtml+="</a>";
 	}
 	else if(id==12){
+		ppnHtml+="<a href=\"toMjznczcp?id=5\">地磅产品</a>";
+		cpnHtml+="汽车衡器";
+		
 		fonHtml+="<div style=\"font-size:20px;\">汽车衡器</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270001.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270001.jpg\" alt=\"big\" style=\"width: 250px;height: 154px;margin-top:38px;margin-bottom:38px;border: 0;\">";
 		itemHtml+="</a>";
 	}
 	else if(id==13){
+		ppnHtml+="<a href=\"toMjznczcp?id=5\">地磅产品</a>";
+		cpnHtml+="地磅";
+		
 		fonHtml+="<div style=\"font-size:20px;\">地磅</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270002.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270002.jpg\" alt=\"big\" style=\"width: 250px;height: 154px;margin-top:38px;margin-bottom:38px;border: 0;\">";
+		itemHtml+="</a>";
+	}
+	else if(id==14){
+		ppnHtml+="<a href=\"toMjznczcp?id=5\">地磅产品</a>";
+		cpnHtml+="汽车地磅";
+		
+		fonHtml+="<div style=\"font-size:20px;\">汽车地磅</div>";
+
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270003.jpg\" alt=\"big\" style=\"width: 250px;height: 154px;margin-top:38px;margin-bottom:38px;border: 0;\">";
+		itemHtml+="</a>";
+	}
+	else if(id==15){
+		ppnHtml+="<a href=\"toMjznczcp?id=5\">地磅产品</a>";
+		cpnHtml+="电子汽车衡器";
+		
+		fonHtml+="<div style=\"font-size:20px;\">电子汽车衡器</div>";
+
+		itemHtml+="<a class=\"big-photo\" style=\"width:250px;height: 230px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270004.jpg\" alt=\"big\" style=\"width: 250px;height: 154px;margin-top:38px;margin-bottom:38px;border: 0;\">";
 		itemHtml+="</a>";
 	}
 	else if(id==6){
+		ppnHtml+="<a href=\"toMjznczcp?id=6\">其他设备</a>";
+		cpnHtml+="互射式红外光栅防盗探测器";
+		
 		fonHtml+="<div style=\"font-size:20px;\">互射式红外光栅防盗探测器</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -189,6 +249,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==9){
+		ppnHtml+="<a href=\"toMjznczcp?id=6\">其他设备</a>";
+		cpnHtml+="经销出入口补光抓拍一体机";
+		
 		fonHtml+="<div style=\"font-size:20px;\">经销出入口补光抓拍一体机</div>";
 		fonHtml+="<div style=\"font-size:12px;\">型号：DS-TCG2A5-B</div>";
 
@@ -200,6 +263,8 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
+	ppnSpan.html(ppnHtml);
+	cpnSpan.html(cpnHtml);
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
 	BtnOK(1);
@@ -2447,6 +2512,162 @@ function BtnOK(sid){
 			jjcdHtml+="";
 		}
 	}
+	else if(id==13){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="地磅的作业原理";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="我们先简略了解一下地磅的作业原理。货品 进入称重台,在货品重力效果下,使称重传感器弹性 体产生弹性形变,张贴于弹性体上的应变计桥路阻 抗失去平衡,输出与分量数值成份额的电信号,经传 感器内部的放大器、A/D转换器、微处理器等电子 元器件处理输出数字信号，再经中继器进入称重显 示外表直接显现出分量等数据。假如显现外表与计 算机、打印机连接,外表可一起把分量信号输出给计 算机等设备,组成完好的称重管理系统。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="2.日常运用SCS系列全地磅过程中，较为 常见的几种毛病";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="2.1机械类毛病";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(1)秤体强度小";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="这类毛病首要会直接影响称量的准确度。反映 出的体现有:①车辆停在磅的不同方位显现的分量 不同;②同一辆车重复过磅每次的分量不同;③逗留 磅上的时刻久了分量会减少等。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="发现此类问题有不同的方法。简单的方法就 是直接观察法：载重车辆上磅时看秤板的下弯程度 有多少,是否底部达到与下面杂物有触摸的程度。 假如没触摸,秤板有明显的下弯情况,阐明秤体的强 度小;再者便是对运用年限长的秤体要检查其的腐 锈程度,还要看看是否有脱焊和断裂的情况等。解 决此类问题的方法便是及时加固秤体,防止形成更 大的损失。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(2)限位卡死";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="这类毛病的体现便是秤体没有活动量。所反映 出的问题便是车辆下磅后显现外表不能及时回归到 零位,必需手动置零外表才能归零。这类问题的解 决就得具体问题具体对待了，具体可分为以下几种 情况:高温胀大、秤体移位、低温结冰、杂物过多等。 高温胀大的问题比较简单处理，比方天气冷的时分 限位的空隙要调整小一些(5mm左右),天气热时限 位的空隙要调整大一些(10mm左右)。秤体移位的 要借住工具及时矫正,这类问题处理起来费时费工。 低温结冰时,首先确保排水通畅,温度低的时分不要 用水冲刷秤体,及时整理下面的杂物。杂物过多就 要定期守时的整理，以确保秤体的整齐卫生即可避 免此类问题。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(3)地基问题";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="这类问题首要分为：地基下沉、外表开裂和承重 面洼陷。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="①地基下沉可分为全体下沉和局部下沉。这就 要求在地基施工时要选好方位，根底下素土承载力 (地耐力)要求不低于117kPa (12吨/平方米)。如 果现场地质条件为湿陷性黄土、胀大土、回填土、冻土 层时根底则有必要另加方法处理,比方大地桩、加钢筋笼 等。有冻土层的根底有必要挖至冻土线以下。地基施工 时还要做好排水方法以防止渗水导致根底下沉。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="②外表开裂有混凝土断裂缝或混凝土表层裂缝 拱起。混凝土断裂缝的要素有混凝土的标号太小、 车辆过重、没有加钢筋笼所造成的。这就要求在根底施 工时考虑实条件加以恰当方法,防止在投入运用后 呈现此类问题。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="③承重面洼陷：这类问题是属于隐藏的问题，表 面是不简单被发现的。一般情况下在装置的时分称 重传感器下面都会加垫钢板,假如钢板不是预埋进 去的，时刻长了钢板跟混凝土外表触摸不充沛就会 有空隙,一朝一夕空隙越来越大,在车辆中力的效果 下钢板成吸合状态,其下面时刻久了就会洼陷下去。 这种毛病不易被发现并且对称量的准确性影响很 大,往往在修理过程中被忽视,原因查来查去仍是不 能被处理。处理这类问题时彻底的方法便是把洼陷 处重新处理水平,使加垫钢板于混凝土面充沛触摸 方能处理。";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==14){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="1.汽车地磅外型美观,结构坚固,工艺精湛,创新专利高刚性高强度设计,创新外观专利设计。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="2.高强度结构秤体，适合各种恶劣环境使用;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="3.高精度传感器，铲车移位方便，可配引坡;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="4.台面可选配：花纹板，平板或不锈钢面板;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="5.表面处理工艺：喷塑喷漆或抛光拉丝处理;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="6.可以随机充电;具有欠压指示及保护装置;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="7.通讯口选配，波特率选配，通讯方式可选;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="8.选配20mA电流环大屏液晶幕显示通讯口;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="9.多种背光模式可选择设置;可根据客户要求订制尺寸。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="10.称重传感器：精度高、防潮、防水、可露天安装使用。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="11.智能化称重显示器：具有清零、去皮、零点跟踪、显示毛重、净重、皮重、打印日期、车号、品名、重量，还可根据用户要求配接微机管理系统和大屏幕显示;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="12.型钢或U型梁秤台：钢结构、模块化、安装方便、外型美观。";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
+	else if(id==15){
+		if(sid==1){
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡器的作业原理和结构";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="1.电子汽车衡的作业原理";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡器利用电阻应变式原理称重。在称重传感器的弹性体上粘贴有应变计，组成惠斯登电桥。在无负荷时，电桥处于平衡状态，输出为零。当弹性体接受载荷发作形变时，各应变计随之发生与载荷成份额的应变，由输出电压即可测出外加载荷的大小。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="将称重传感器装在承重台下方，传感器电缆在接线盒里并联，然后接到电子称重外表的输入端。当汽车停在秤台上时，秤体将其所受的力加到称重传感器上，使应变电桥的电阻发作改变，引起输出电压的改变，即输出了电信号。此电信号经数字滤波、线性放大后送给A/D转化器，A/D转化器把模拟量转化成数字量，然后送到微处理机进行处理，电子称重外表显现称重结果。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="2.电子汽车衡器结构";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡首要有承重台、称重外表、称重传感器、预埋根底(含根底板)四部分组成，可装备打印机、野外大屏幕显现器、稳压电源和电源浪涌保护器等外部设备。其间，电源浪涌保护器，设备在用户220VAC电源和称重设备之间，首要用于按捺来自交流电源线的浪涌电压和电流，有效下降二次雷击等对称重设备的危害。称重外表配有RS485接口、20mA电流环，可连接微机操控系统，完成网络化管理。具有称重、显现、打印等多种功用。汽车衡整体选用模块化结构设计，不同台板尺寸的汽车衡可分别由三种模块化秤台拼装而成，可满意7~24m范围内不同台板尺寸的电子汽车衡要求";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(l)承重台(也称为秤台)";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡承重台是电子汽车衡的首要承载部件，其秤体为钢框架结构，资料选用优质型钢及板材，其化学成分和力学功用应符合GB 700-1988《普通碳素结构钢技术条件》的规则，去除钢材外表的氧化皮、锈蚀及异物，除锈要到达GB 8923-1988《涂装前钢材外表锈蚀等级和除锈等级》Sa2.5级。它应具有足够的强度和刚度，较高的自振频率和良好的的安稳性。由于本身较重，可给称重传感器必定的预压力，以改进承重传感器的作业功用。在承重台的两头设置了两组限位设备，使其在前后左右四个方位得到操控，减少了承重台的位移，使承重台接受的载荷能地传递给称重传感器。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡器的传力组织在载荷的传递过程中起着重要作用。一般说来，电子汽车衡的传力组织应满意以下要求：";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="①使承重台在水平方向上能进行必定范围的自由摆动;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="②在水平外力消失后，能使承重台较快地恢复平衡;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="③能饱尝汽车在承重台上的制动冲击和快速经过;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="④能饱尝较大的环境温度的改变。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(2)根底";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="根底是电子汽车衡的重要组成部分，根底质量的好坏直接影响衡器的度。电子汽车衡能够选择无基坑或浅基坑方式。关于无基坑方式，整个秤体均在地上之上，汽车进出承重台时需求经过必定长度的引坡，在必定的条件下，引坡越短越好，但要求承重台台面距地上的高度要小。秤体两头辅设的引坡，可量体裁衣地做成混凝土结构，也能够做成钢结构。关于浅基坑方式，根底开挖深度需求添加一个秤台的设备高度，整个秤体设备后与地上齐平，不需求设置引坡，但需求留意设置排水设施。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(3)称重传感器";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="电子汽车衡推荐装备数字式、柱式或剪切式的传感器，因为上述方式的传感器具有结构简略、安稳牢靠、灵敏度高、输出信号大、设备方便、抗侧向力强等特色。SCS/ZCS系列电子汽车衡依据量程的不同，配用≥4的偶数C级称重传感器，虽l配套电子汽车衡的称重传感器的度等级为C级。";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="(4)称重显现操控外表及外围设备";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<div style=\"font-size: 14px;text-align: left;text-indent: 2em;line-height:30px;\">";
+				jjcdHtml+="称重显现操控外表可显现毛重、皮重和净重、时间、日期、标识号、序号等技术参数，还能够显现预置重量值，完成重量数据的上传。外表外壳结构有台式、面板式等。同时，可装备打印机、野外大屏幕显现器、稳压电源和电源浪涌保护器等外部设备，以构成完善的系统。称重外表配有RS485接口，20mA电流环，可连接微机操控系统，完成网络化管理。具有称重、显现、打印等多种功用";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
 	else if(id==6){
 		if(sid==1){
 			jjcdHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008140027.png\">";
@@ -2562,6 +2783,9 @@ body{
 .left_nav_div img{
 	margin-left: 10px;
 }
+.left_nav_div .gkcp_pos_nav_span a,.left_nav_div .par_pos_nav_span a{
+	color: #2b2b2b;
+}
 .left_nav_div span:last-child{
 	color: #0067B2;
 }
@@ -2635,9 +2859,9 @@ body{
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
 <div class="left_nav_div">
 	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
-	<span>工控产品&gt;</span>
-	<span>门禁智能称重产品&gt;</span>
-	<span>身份证读取器</span>
+	<span class="gkcp_pos_nav_span"><a href="toMjznczcp?id=1">工控产品&gt;</a></span>
+	<span class="par_pos_nav_span" id="par_pos_nav_span"></span>&gt;
+	<span id="chi_pos_nav_span"></span>
 </div>
 
 <div class="main_div">

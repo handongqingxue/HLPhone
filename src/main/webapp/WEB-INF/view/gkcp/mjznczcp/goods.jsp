@@ -20,73 +20,84 @@ function BtnOK(id){
 	$("#good_nav_div .item_div").attr("class","item_div unSelected");
 	$("#good_nav_div #item_div"+id).attr("class","item_div selected");
 	
+	var pnSpan=$("#pos_nav_span");
 	var gpList=$("#good_pic_div");
+	pnSpan.empty();
 	gpList.empty();
+	var pnHtml="";
 	var itemHtml="";
 	if(id==1){
+		pnHtml+="LED大屏";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=10\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008200006.jpg\" style=\"width:230px;height:165px;\">";
 				itemHtml+="<p>75室内双色led显示屏</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=11\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250003.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008250003.jpg\" style=\"width:251px;height:165px;\">";
 				itemHtml+="<p>户外p10单色led显示屏</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
 	else if(id==2){
+		pnHtml+="门禁产品";
+		
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=1\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" style=\"width: 155px;height:225px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130001.jpg\" style=\"width: 113px;height:165px;\">";
 				itemHtml+="<p>CVR-100UC身份证读取器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=7\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" style=\"width: 150px;height:225px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008170001.jpg\" style=\"width: 110px;height:165px;\">";
 				itemHtml+="<p>智能道闸机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=2\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130002.jpg\" style=\"width: 155px;height:225px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130002.jpg\" style=\"width: 113px;height:165px;\">";
 				itemHtml+="<p>道闸雷达</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
 	else if(id==3){
+		pnHtml+="自动收发卡系列";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=3\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130003.jpg\" style=\"width: 130px;height:165px;\">";
 				itemHtml+="<p>CQ-35LT规格IC读卡器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=8\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180001.png\" style=\"width: 240px;height:227px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180001.png\" style=\"width: 174px;height:165px;\">";
 				itemHtml+="<p>CQ-591-MR01-EBNJ 收发卡机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
 	else if(id==4){
+		pnHtml+="二维码流程控制产品";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=4\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130004.png\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130004.png\" style=\"width: 182px;height:165px;\">";
 				itemHtml+="<p>NLS-FM430固定式条码扫描器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=5\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130005.jpg\" style=\"width: 165px;height:165px;\">";
 				itemHtml+="<p>NLS-MT60E(4G)_Datasheet_cn 4寸安卓</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
 	else if(id==5){
-		//pnHtml+="地磅产品";
+		pnHtml+="地磅产品";
 
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=12\">";
@@ -114,19 +125,22 @@ function BtnOK(id){
 		itemHtml+="</div>";
 	}
 	else if(id==6){
+		pnHtml+="其他设备";
+
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=6\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130006.jpg\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008130006.jpg\" style=\"width: 165px;height:165px;\">";
 				itemHtml+="<p>互射式红外光栅防盗探测器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=9\">";
-				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" style=\"width: 225px;height:167px;margin-top: 29px;margin-bottom: 29px;\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008180073.png\" style=\"width: 223px;height:165px;\">";
 				itemHtml+="<p>经销出入口补光抓拍一体机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
+	pnSpan.text(pnHtml);
 	gpList.append(itemHtml);
 }
 </script>
@@ -137,6 +151,9 @@ function BtnOK(id){
 }
 .left_nav_div img{
 	margin-left: 10px;
+}
+.left_nav_div .gkcp_pos_nav_span a{
+	color: #2b2b2b;
 }
 .left_nav_div span:last-child{
 	color: #0067B2;
@@ -159,6 +176,7 @@ function BtnOK(id){
 	display: flex;
 	align-content: center;
 	flex-wrap: wrap;
+	margin-top: 50px;
 }
 .good_pic_div div {
     width: 33%;
@@ -179,9 +197,10 @@ function BtnOK(id){
 <img style="width: 100%;" src="<%=basePath %>resource/staticPage/img/202008110001.png">
 <div class="left_nav_div">
 	<img src="<%=basePath %>resource/staticPage/img/202008110003.png" alt="">
-	<span>工控产品&gt;</span>
-	<span>门禁智能称重产品</span>
-</div><div class="good_nav_div" id="good_nav_div">
+	<span class="gkcp_pos_nav_span"><a href="toMjznczcp?id=1">工控产品&gt;</a></span>
+	<span id="pos_nav_span"></span>
+</div>
+<div class="good_nav_div" id="good_nav_div">
 	<div class="item_div selected" id="item_div1" onclick="BtnOK(1)">
 		LED大屏
 	</div>
