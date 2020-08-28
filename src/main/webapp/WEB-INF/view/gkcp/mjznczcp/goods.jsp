@@ -85,6 +85,34 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
+	else if(id==5){
+		//pnHtml+="地磅产品";
+
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=12\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270001.jpg\" style=\"width: 268px;height:165px;\">";
+				itemHtml+="<p>汽车衡器</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=13\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270002.jpg\" style=\"width: 268px;height:165px;\">";
+				itemHtml+="<p>地磅</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=14\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270003.jpg\" style=\"width: 268px;height:165px;\">";
+				itemHtml+="<p>汽车地磅</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"toMjznczcpDetail?id=15\">";
+				itemHtml+="<img src=\""+path+"resource/staticPage/UpFiles/File/202008270004.jpg\" style=\"width: 268px;height:165px;\">";
+				itemHtml+="<p>电子汽车衡器</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+	}
 	else if(id==6){
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"toMjznczcpDetail?id=6\">";
